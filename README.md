@@ -28,7 +28,7 @@ In the project directory, simply use `helmfile sync helmfile.yaml` to deploy all
 
 Obtain the port that the application can be accessed with: `kubectl describe service/frontend | grep -i nodeport`
 
-Access the microservices application with the port specified in your Kubernetes cluster and the public IP address of your Kubernetes Engine:
+Access the microservices application with the port specified in your Kubernetes cluster and the public IP address provided by your Kubernetes Engine.
 
 ## Architecture
 
