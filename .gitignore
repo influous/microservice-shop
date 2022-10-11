@@ -1,4 +1,6 @@
-gcp-secret.yml
-helpful-valve-346212-c8a4c2365228.json
-neu-kubeconfig.yaml
+# OS specific
 .DS_Store
+
+# Helper scripts
+install.sh
+uninstall.sh
